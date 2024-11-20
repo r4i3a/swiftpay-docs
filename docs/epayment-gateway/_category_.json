@@ -1,0 +1,8 @@
+{
+  "label": "ePayment Gateway",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "SwiftPay's ePayment Gateway is a secure and reliable payment processing solution that enables businesses to accept online payments. Our gateway provides seamless integration options for web and mobile applications."
+  }
+}
