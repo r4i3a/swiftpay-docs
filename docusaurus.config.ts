@@ -37,7 +37,7 @@ const config: Config = {
           routeBasePath: '/', 
           sidebarPath: './sidebars.ts',
           breadcrumbs: true,
-          editUrl: 'https://github.com/r4i3a/swiftpay-docs/tree/main/',
+          editUrl: 'https://github.com/r4i3a/swiftpay-docs/tree/master/',
           showLastUpdateTime: true,
           sidebarCollapsible: true,
         },
@@ -99,6 +99,15 @@ const config: Config = {
     },
     // Replace with your project's social card
     image: 'img/homepage.jpg',
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+        hideable: true,
+      },
+    },
+    colorMode: {
+      defaultMode: 'light',
+    },
     navbar: {
       title: 'SwiftPay',
       logo: {
@@ -207,5 +216,7 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 };
+
+
 
 export default config;
