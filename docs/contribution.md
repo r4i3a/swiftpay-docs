@@ -21,11 +21,11 @@ Thank you for your interest in contributing to SwiftPay! While this is primarily
 1. **Fork the Repository**
    ```bash
    # Clone your fork
-   git clone https://github.com/your-username/swiftpay.git
-   cd swiftpay
+   git clone https://github.com/r4i3a/swiftpay-docs
+   cd swiftpay-docs
 
    # Add upstream remote
-   git remote add upstream https://github.com/original/swiftpay.git
+   git remote add upstream https://github.com/original/swiftpay-docs.git
    ```
 
 2. **Create a Branch**
@@ -112,7 +112,7 @@ Types:
 
 - Create an issue for feature discussions
 - Tag with `question` for general queries
-- Email: dev.support@swiftpay.com
+- Email: dev.support@pay.raisa.com.np
 
 ## 📜 License
 
