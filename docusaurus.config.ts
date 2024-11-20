@@ -36,20 +36,17 @@ const config: Config = {
         docs: {
           routeBasePath: '/', 
           sidebarPath: './sidebars.ts',
+          breadcrumbs: true,
+          editUrl: 'https://github.com/r4i3a/swiftpay-docs/tree/main/',
+          showLastUpdateTime: true,
           sidebarCollapsible: true,
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/api-reference.css'),
+          ],
         },
       } satisfies Preset.Options,
     ],
