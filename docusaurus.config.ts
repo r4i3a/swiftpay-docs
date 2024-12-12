@@ -108,6 +108,13 @@ const config: Config = {
     colorMode: {
       defaultMode: 'light',
     },
+    algolia: {
+      appId: '0ETQAL987O',
+      apiKey: '72e60323f183ef34c1e59d0660361b64',
+      indexName: 'raisa-com',
+      contextualSearch: true,
+      searchParameters: {},
+    },
     navbar: {
       title: 'SwiftPay',
       logo: {
@@ -166,6 +173,10 @@ const config: Config = {
           position: 'left',
           className: 'navbar-book-demo',
         },      
+        {
+          type: 'search',
+          position: 'right',
+        },
         {
           label: 'Login',
           href: 'https://pay.raisa.com.np/login',
