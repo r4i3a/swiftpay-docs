@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 ---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -42,6 +43,8 @@ https://pay.raisa.com.np
 |----------|---------|------------|
 | `/api/v1/initiate` | POST | Initiate a new payment |
 | `/api/v1/lookup` | POST | Check payment status |
+| `api/v1/refund` | POST | Refund a payment |
+
 
 ## Authentication
 

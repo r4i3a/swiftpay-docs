@@ -8,7 +8,7 @@ sidebar_position: 1
 
 SwiftPay Payment Gateway (SPG) is a comprehensive payment solution, digital wallet, and API provider designed specifically for online services in Nepal. Whether you have a web application or a mobile application, integrating SPG enables you to seamlessly accept online payments. This documentation serves as your comprehensive guide through the integration process.
 
-By incorporating the SPG ePayment Gateway (for web) and SDKs (for mobile), you can accept payments from various sources:
+By incorporating the SPG ePayment Gateway (for web) and SDKs (for mobile `Coming Soon`), you can accept payments from various sources:
 
 - SwiftPay users.
 - eBanking users of our partner banks.

@@ -2,6 +2,9 @@
 sidebar_position: 2
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Getting Started
 
 This document serves as a comprehensive guide to integrating the SwiftPay Payment Gateway (SPG) into your system. The integration process involves signing up as a merchant, understanding the integration methods for web and mobile, and transitioning to a live environment after successful testing.
@@ -67,8 +70,6 @@ Mobile Checkout integration is coming soon. Stay tuned for updates!
 Use our sandbox environment to test your SwiftPay integration before going live. The sandbox environment provides a safe testing space that mimics production behavior without processing real transactions.
 
 Get your sandbox credentials from the SwiftPay Developer Dashboard and configure your headers as follows:
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs groupId="language">
   <TabItem value="curl" label="Curl">
@@ -123,9 +124,6 @@ import TabItem from '@theme/TabItem';
 Before deploying your SwiftPay integration to production, ensure you've completed the required steps in the correct order. Start by thoroughly testing your integration in the sandbox environment to verify all payment flows, error handling, and webhook integrations work as expected. Once testing is complete, submit your integration for our technical review team to verify your implementation.
 
 After approval, you'll receive your production credentials. When implementing these credentials, ensure you update both your API token and environment settings:
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs groupId="language">
   <TabItem value="curl" label="Curl">
